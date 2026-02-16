@@ -255,4 +255,303 @@
 
 ![[Pasted image 20260210175046.png]]
 
-# Chapter 3 - Structured Query Language (SQL)
+# Chapter 4 - Structured Query Language (SQL)
+## Database Schema & Constraints
+ ![[Pasted image 20260214062151.png]]
+### Database Schema 
+![[Pasted image 20260214062309.png]]
+![[Pasted image 20260214062344.png]]
+### Data types 
+![[Pasted image 20260214062518.png]]
+
+### Database Constraints
+![[Pasted image 20260214062641.png]]
+#### Constraints Types 
+
+![[Pasted image 20260214062808.png]]
+![[Pasted image 20260214062910.png]]
+![[Pasted image 20260214063043.png]]
+![[Pasted image 20260214063339.png]]
+![[Pasted image 20260214063435.png]]
+
+
+
+## SQL - Data Definition Language(DDL)
+
+![[Pasted image 20260214063527.png]]
+![[Pasted image 20260214063542.png]]
+
+### Create
+
+![[Pasted image 20260214064538.png]]
+
+### Alter 
+*ADD*
+![[Pasted image 20260214064805.png]]
+*REMOVE*
+![[Pasted image 20260214065043.png]]
+### Drop
+![[Pasted image 20260214065232.png]]
+
+
+
+## SQL - Data Control Language (GRANT, REVOKE)
+
+![[Pasted image 20260214065400.png]]
+![[Pasted image 20260214065425.png]]
+![[Pasted image 20260214065518.png]]
+
+
+#### Grand 
+![[Pasted image 20260214065831.png]]
+
+#### Revoke 
+![[Pasted image 20260214065948.png]]
+
+
+# Chapter 5 - Data Manipulation Language (DML)
+
+![[Pasted image 20260214070213.png]]
+
+## Insert 
+
+![[Pasted image 20260214082517.png]]
+
+*First Way *
+![[Pasted image 20260214082207.png]]
+
+*Second Way*
+![[Pasted image 20260214082339.png]]
+
+
+## Update
+
+*for one Column*
+![[Pasted image 20260214082706.png]]
+
+*more than one Column *
+![[Pasted image 20260214082830.png]]
+
+
+## Delete 
+*Record Level*
+
+![[Pasted image 20260214083034.png]]
+## Difference between Delete  & Truncate
+
+![[Pasted image 20260214083055.png]]
+
+![[Pasted image 20260214083440.png]]
+
+## Select
+
+![[Pasted image 20260214210937.png]]![[Pasted image 20260214211106.png]]
+
+## Comparison & logical Operators 
+
+![[Pasted image 20260214211319.png]]
+![[Pasted image 20260214223808.png]]
+![[Pasted image 20260214223907.png]]
+![[Pasted image 20260214224001.png]]
+*Multi-Row Operator*
+![[Pasted image 20260214224115.png]]
+
+
+## Like Operator 
+
+![[Pasted image 20260214224409.png]]
+## Alias 
+
+![[Pasted image 20260214224705.png]]
+![[Pasted image 20260214224943.png]]
+
+## Order by 
+
+![[Pasted image 20260214225159.png]]
+*هيرتب الأول تصاعدي وبعد كدا تنازلي علي حسب كل عمود*
+![[Pasted image 20260214225304.png]]
+
+
+## Distinct
+
+![[Pasted image 20260214225528.png]]
+
+## Inner Join
+*لو عاوز تعرض الداتا من اكتر من جدول عندك عندك معلومة من هنا ومعلومة هناك ودايما بكون علاقة بين ال Primary key , foreign key*
+*واحنا هنا لازم يكون لكل قمية علي الشمال قمية موجوده علي اليمين*
+**equal join**
+![[Pasted image 20260215164828.png]]
+
+![[Pasted image 20260215165253.png]]
+
+**Inner join**
+![[Pasted image 20260215165447.png]]
+
+![[Pasted image 20260215165722.png]]
+
+
+## Outer , Full Join 
+*لو عاوز في قيمة موجوده علي اليمين او الشمال و في الناحية التانية مفيش *
+
+### Types of Outer 
+#### Left Outer Join 
+*هنا هيرجع كل القيم اللي في الجدول الشمال*
+#### Right Outer Join 
+*هنا هيرجع كل القيم اللي في الجدول اليمين*
+
+#### Full Outer Join 
+*بيرجع كله اللي هنا واللي هنان حتي لو مش ليه قمية*
+###
+![[Pasted image 20260215170207.png]]
+![[Pasted image 20260215170324.png]]
+
+## Self Join 
+*بنعمل جوين للجدول بنفسه ودي بتكون في ال  Recursive relationship*
+![[Pasted image 20260215171029.png]]
+
+
+## Sub-Queries
+
+![[Pasted image 20260215171547.png]]
+
+![[Pasted image 20260215172151.png]]
+
+## Max , Min , Count Functions
+*بتتجاهل ال  null*
+![[Pasted image 20260215172708.png]]
+
+## Group by & Having 
+
+![[Pasted image 20260215173322.png]]
+
+##  Select Conclusion 
+
+
+# Chapter 6 - SQL Other DB Objects 
+
+## Views (Create , Modify , Remove, Types)
+
+![[Pasted image 20260215182420.png]]
+![[Pasted image 20260215182452.png]]
+![[Pasted image 20260215182524.png]]
+![[Pasted image 20260215182543.png]]
+![[Pasted image 20260215182634.png]]
+
+![[Pasted image 20260215182649.png]]
+*بتتعامل معاه بعد كدا أكنه جدول عااادي*
+![[Pasted image 20260215182832.png]]
+
+
+
+![[Pasted image 20260215184020.png]]
+
+
+![[Pasted image 20260215184109.png]]
+
+![[Pasted image 20260215184142.png]]
+
+
+![[Pasted image 20260215184316.png]]
+
+![[Pasted image 20260215184326.png]]
+![[Pasted image 20260215184342.png]]
+![[Pasted image 20260215184405.png]]
+![[Pasted image 20260215184417.png]]
+
+![[Pasted image 20260215184429.png]]
+
+![[Pasted image 20260215185223.png]]
+
+
+## Indexes
+
+![[Pasted image 20260215205152.png]]
+
+### Why indexes? 
+
+![[Pasted image 20260215205257.png]]
+![[Pasted image 20260215205321.png]]
+![[Pasted image 20260215205332.png]]
+![[Pasted image 20260215205342.png]]
+![[Pasted image 20260215205519.png]]
+![[Pasted image 20260215205607.png]]
+*ليه بيبطئ العمليات دي عشان هو لما بيجي وليكن عاوز يضيف فا بيضيف في اكتر من مكان مش في مكان واحد فا بياخد وقت وهكذا بقي*
+
+### Guidelines 
+
+![[Pasted image 20260215205808.png]]
+![[Pasted image 20260215205819.png]]
+![[Pasted image 20260215205828.png]]
+
+![[Pasted image 20260215205901.png]]
+
+### Create index 
+
+![[Pasted image 20260215210313.png]]
+
+# Chapter 7 - Normalization 
+
+## What is  Normalization
+
+![[Pasted image 20260215210700.png]]
+![[Pasted image 20260215212632.png]]
+
+
+![[Pasted image 20260215210756.png]]
+![[Pasted image 20260215211122.png]]
+
+
+
+## Functional Dependency
+
+![[Pasted image 20260215212007.png]]
+![[Pasted image 20260215212148.png]]
+![[Pasted image 20260215212202.png]]
+![[Pasted image 20260215212322.png]]
+![[Pasted image 20260215212410.png]]
+![[Pasted image 20260215212510.png]]
+
+
+## 
+
+![[Pasted image 20260215212706.png]]
+## First Normal Form
+
+![[Pasted image 20260215212729.png]]![[Pasted image 20260215212943.png]]
+
+![[Pasted image 20260215213126.png]]
+
+## Second Normal Form 
+
+![[Pasted image 20260215213505.png]]
+
+![[Pasted image 20260215213417.png]]
+![[Pasted image 20260215213442.png]]
+![[Pasted image 20260215213528.png]]
+
+
+## Third Normal Form
+
+![[Pasted image 20260215213711.png]]
+
+![[Pasted image 20260215213748.png]]
+
+![[Pasted image 20260215213853.png]]
+
+
+
+## Summary 
+
+![[Pasted image 20260215214043.png]]
+## Example 
+
+![[Pasted image 20260215214113.png]]
+
+
+![[Pasted image 20260215214143.png]]
+
+![[Pasted image 20260215214233.png]]
+![[Pasted image 20260215214407.png]]
+![[Pasted image 20260215214603.png]]
+
+
