@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c091e35b51c0d235",
+        "id": "e07fc18785b2625e",
         "type": "tabs",
         "children": [
           {
-            "id": "216be708a1c510e7",
+            "id": "d454afc09916720d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend-IEEE/MySql/MySQL.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "MySQL"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "aed61fdb264ca51b",
@@ -184,21 +179,20 @@
       "graph:Open graph view": false
     }
   },
-  "active": "216be708a1c510e7",
+  "active": "cf00cb82dc021e2a",
   "lastOpenFiles": [
-    "Pasted image 20260224163655.png",
-    "Backend-IEEE/Database/Database Mahara Tech.md",
-    "Backend-IEEE/MySql/Pasted image 20260220072547.png",
     "Backend-IEEE/MySql/MySQL.md",
-    "Backend-IEEE/MySql/Pasted image 20260224163329.png",
-    "Backend-IEEE/MySql/Pasted image 20260224163115.png",
-    "Backend-IEEE/MySql/Pasted image 20260224163024.png",
-    "Backend-IEEE/MySql/Pasted image 20260224162932.png",
-    "Backend-IEEE/MySql/Pasted image 20260224162833.png",
-    "Backend-IEEE/MySql/Pasted image 20260224162726.png",
-    "Backend-IEEE/MySql/Pasted image 20260224162303.png",
-    "Backend-IEEE/MySql/Pasted image 20260224162039.png",
-    "Backend-IEEE/MySql/Pasted image 20260224162025.png",
+    "Backend-IEEE/MySql/Pasted image 20260228133629.png",
+    "Backend-IEEE/MySql/Pasted image 20260228133600.png",
+    "Backend-IEEE/MySql/Pasted image 20260228133532.png",
+    "Backend-IEEE/MySql/Pasted image 20260228133345.png",
+    "Backend-IEEE/MySql/Pasted image 20260228133319.png",
+    "Backend-IEEE/MySql/Pasted image 20260228133233.png",
+    "Backend-IEEE/MySql/Pasted image 20260228133034.png",
+    "Backend-IEEE/MySql/Pasted image 20260228133000.png",
+    "Backend-IEEE/MySql/Pasted image 20260228132606.png",
+    "Backend-IEEE/MySql/Pasted image 20260228131757.png",
+    "Backend-IEEE/Database/Database Mahara Tech.md",
     "Backend-IEEE/MySql",
     "Test.md",
     "fsfsd.md",

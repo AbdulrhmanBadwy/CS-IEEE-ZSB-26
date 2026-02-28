@@ -123,7 +123,7 @@
 
 
 
-## SQL SubQuery
+## SQL Sub Query
 
 ![[Pasted image 20260224145034.png]]
 ![[Pasted image 20260224145229.png]]
@@ -217,3 +217,127 @@
 ### Summary
 ![[Pasted image 20260224163655.png]]
 
+
+
+
+## Windows Functions 
+### 
+![[Pasted image 20260228111922.png]]
+![[Pasted image 20260228112147.png]]
+![[Pasted image 20260228112502.png]]
+![[Pasted image 20260228112643.png]]
+![[Pasted image 20260228112721.png]]
+![[Pasted image 20260228112954.png]]
+![[Pasted image 20260228112902.png]]
+![[Pasted image 20260228113926.png]]
+
+
+
+### Windows Function syntax 
+![[Pasted image 20260228114052.png]]
+![[Pasted image 20260228115004.png]]
+
+
+
+![[Pasted image 20260228114830.png]]
+
+![[Pasted image 20260228115257.png]]
+
+
+![[Pasted image 20260228115803.png]]
+![[Pasted image 20260228120023.png]]
+![[Pasted image 20260228120336.png]]
+
+![[Pasted image 20260228120132.png]]
+![[Pasted image 20260228120538.png]]
+
+
+
+
+### Limitation 
+
+![[Pasted image 20260228121344.png]]
+![[Pasted image 20260228121539.png]]
+![[Pasted image 20260228121603.png]]
+![[Pasted image 20260228121655.png]]
+
+
+### Summary
+![[Pasted image 20260228122034.png]]
+
+## Indexes
+
+### What is an index?
+
+![[Pasted image 20260228133034.png]]
+
+![[Pasted image 20260228124656.png]]
+
+### Index Types 
+
+![[Pasted image 20260228125054.png]]
+![[Pasted image 20260228125116.png]]
+
+#### Structure Index 
+##### Heap Structure
+
+![[Pasted image 20260228125408.png]]
+![[Pasted image 20260228125539.png]]
+![[Pasted image 20260228125850.png]]
+![[Pasted image 20260228130020.png]]
+
+
+##### clustered Index
+![[Pasted image 20260228130204.png]]
+![[Pasted image 20260228130323.png]]
+![[Pasted image 20260228130410.png]]
+![[Pasted image 20260228130825.png]]
+![[Pasted image 20260228130958.png]]
+
+##### Non-Clustered Index
+![[Pasted image 20260228131216.png]]
+ ![[Pasted image 20260228131357.png]]
+![[Pasted image 20260228131455.png]]
+![[Pasted image 20260228131640.png]]
+![[Pasted image 20260228131757.png]]
+
+
+
+##### Clustered Vs Non-Clustered
+![[Pasted image 20260228132606.png]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### How Created Index 
+![[Pasted image 20260228133000.png]]
+
+![[Pasted image 20260228133233.png]]
+![[Pasted image 20260228133319.png]]
+![[Pasted image 20260228133345.png]]
+
+##### Composite Index
+
+![[Pasted image 20260228133532.png]]
+![[Pasted image 20260228133600.png]]
+![[Pasted image 20260228133629.png]]
+
+
+
+
+ 
